@@ -1,0 +1,15 @@
+{
+	"name": "K_Blocker",
+	"version":"1.0.0",
+	"description": "add blocker extension which acts by blocking certain IP addresses",
+	"permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+	"background": {
+		"scripts": ["script.js"]
+	},
+	"manifest_version": 3,
+	"author": "KeorapetseCode",
+	"action": {
+		"default_popup": "index.html",
+		"default_title": "My Personal Ad Blocker"
+	}
+}
