@@ -1,12 +1,12 @@
 {
-	"name": "K_Blocker",
-	"version":"1.0.0",
-	"description": "add blocker extension which acts by blocking certain IP addresses",
+	"name": "Sensei_Blocker",
+	"version":"1.0.2",
+	"description": "DNS proxy blocker to given sites",
 	"permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
 	"background": {
 		"scripts": ["script.js"]
 	},
-	"manifest_version": 3,
+	"manifest_version": 2,
 	"author": "KeorapetseCode",
 	"action": {
 		"default_popup": "index.html",
